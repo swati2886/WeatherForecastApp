@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Forecast</title>
+<!-- For-Mobile-Apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/fetchDetails.js"></script>
+</head>
+</head>
+<body onload="startTime(),getWeather(),populateDate()">
+
+<div class="content" style="width:100%">
+
+	<div class="place">
+
+		<div id="txt"></div>
+
+		<div class="dmy" id="datetime">
+        </div>
+        <div class="city">
+        <p id="city_name"></p>
+        </div>
+
+	</div>
+
+	<div class="temp">
+
+        <p>Weather Forecast</p>
+
+        <div id="dayDiv" class="day">
+
+
+        </div>
+
+	</div>
+
+	<div class="clear"></div>
+	
+</div>
+
+</body>
+</html>

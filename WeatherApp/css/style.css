@@ -1,0 +1,140 @@
+/*-- Fonts --*/
+@font-face{
+  font-family: 'Oswald-Bold';
+  src:url(../fonts/Oswald-Bold.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'Oswald-Regular';
+	src:url(../fonts/Oswald-Regular.ttf) format('truetype');
+}
+@font-face{
+  font-family: 'Gotham-Book';
+  src:url(../fonts/Gotham-Book.ttf) format('truetype');
+}
+/*-- Fonts --*/
+
+/*-- Index - Page - styling --*/
+
+body {
+  background: url("../images/bg.jpg");
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald-Bold';
+  color: #FFF;
+  font-size: 40px;
+  margin: 40px auto;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.place {
+  background: url("../images/sun.jpg");
+  min-height: 500px;
+  background-size: 100% 100%;
+  width: 20%;
+  float: left;
+}
+
+div#txt {
+    padding: 40px 10px;
+    text-align: center;
+    font-family: Gotham-Book;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.47);
+    margin: 45px 0 30px;
+}
+
+.dmy {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Gotham-Book;
+    font-weight: bold;
+    color: #FFF;
+    background-color: rgba(69, 64, 64, 0.37);
+}
+
+.city p {
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Oswald-Regular;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.19) url("../images/point.png") no-repeat 20px;
+}
+
+.temp {
+    width: 80%;
+    float: left;
+    background: rgba(69, 64, 64, 0.37);
+    min-height: 500px;
+}
+
+.temp p {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 75px;
+    font-family: Gotham-Book;
+    color: #FFFFFF;
+}
+
+.day {
+	width: 100%;
+	margin-top: -30px;
+	text-align: center;
+}
+.day h3 {
+    margin-top: 100px;
+    font-family: Gotham-Book;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+.day p {
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: Gotham-Book;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+
+.Rain {
+	float: left;
+	width: 20%;
+	background: url("../images/rainy.png") no-repeat 75px 0px;
+}
+.Clouds {
+	float: left;
+	width: 20%;
+	background: url("../images/cloudy.png") no-repeat 75px 0px;
+}
+.Clear {
+	float: left;
+	width: 20%;
+	background: url("../images/sunny.png") no-repeat 75px 0px;
+}
+
+
+div#dd1 span {
+    z-index: 9999999;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+img {
+    width: 150%;
+}
+
+
